@@ -119,16 +119,16 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Blog",
-              "name": "My Blog",
-              "description": "웹 개발, JavaScript, React, Next.js에 관한 기술 블로그",
+              "name": "강아지가 세상을 구한다",
+              "description": "한신대학교에서 강아지를 좋아하는 사람들을 위해 만들어진 블로그",
               "url": process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
               "author": {
                 "@type": "Organization",
-                "name": "My Blog Team"
+                "name": "한신대학교"
               },
               "publisher": {
                 "@type": "Organization",
-                "name": "My Blog",
+                "name": "강아지가 세상을 구한다",
                 "logo": {
                   "@type": "ImageObject",
                   "url": `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/images/logo.png`
