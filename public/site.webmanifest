@@ -1,7 +1,7 @@
 {
-    "name": "My Blog",
-    "short_name": "MyBlog",
-    "description": "웹 개발, JavaScript, React, Next.js에 관한 최신 기술과 실무 경험을 공유하는 블로그",
+    "name": "강아지가 세상을 구한다",
+    "short_name": "강아지블로그",
+    "description": "한신대학교에서 강아지를 좋아하는 사람들을 위해 만들어진 블로그",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

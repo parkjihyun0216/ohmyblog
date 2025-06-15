@@ -22,14 +22,14 @@ const notoSansKR = Noto_Sans_KR({
 // SEO 메타데이터 설정
 export const metadata: Metadata = {
   title: {
-    default: "My Blog - 웹 개발 기술 블로그",
-    template: "%s | My Blog",
+    default: "강아지가 세상을 구한다",
+    template: "%s | 강아지가 세상을 구한다",
   },
-  description: "웹 개발, JavaScript, React, Next.js에 관한 기술 블로그입니다. 최신 개발 트렌드와 실무 경험을 공유합니다.",
-  keywords: ["웹 개발", "JavaScript", "React", "Next.js", "TypeScript", "프론트엔드", "기술 블로그"],
-  authors: [{ name: "My Blog Team" }],
-  creator: "My Blog",
-  publisher: "My Blog",
+  description: "한신대학교에서 강아지를 좋아하는 사람들을 위해 만들어진 블로그",
+  keywords: ["강아지", "한신대학교", "반려동물", "블로그"],
+  authors: [{ name: "한신대학교" }],
+  creator: "한신대학교",
+  publisher: "강아지가 세상을 구한다",
   formatDetection: {
     email: false,
     address: false,
@@ -42,15 +42,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     url: "/",
-    title: "My Blog - 웹 개발 기술 블로그",
-    description: "웹 개발, JavaScript, React, Next.js에 관한 기술 블로그입니다.",
-    siteName: "My Blog",
+    title: "강아지가 세상을 구한다",
+    description: "한신대학교에서 강아지를 좋아하는 사람들을 위해 만들어진 블로그",
+    siteName: "강아지가 세상을 구한다",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "My Blog",
+        alt: "강아지가 세상을 구한다",
       },
     ],
   },
@@ -58,8 +58,8 @@ export const metadata: Metadata = {
   // Twitter Card 설정
   twitter: {
     card: "summary_large_image",
-    title: "My Blog - 웹 개발 기술 블로그",
-    description: "웹 개발, JavaScript, React, Next.js에 관한 기술 블로그입니다.",
+    title: "강아지가 세상을 구한다",
+    description: "한신대학교에서 강아지를 좋아하는 사람들을 위해 만들어진 블로그",
     images: ["/images/og-image.jpg"],
     creator: "@myblog",
   },

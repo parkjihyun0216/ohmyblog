@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 
 // 기본 사이트 정보
 const SITE_CONFIG = {
-  name: 'My Blog',
-  description: '개발, 기술, 그리고 일상을 공유하는 블로그',
+  name: '강아지가 세상을 구한다',
+  description: '한신대학교에서 강아지를 좋아하는 사람들을 위해 만들어진 블로그',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3001',
   author: {
-    name: '블로그 작성자',
+    name: '한신대학교',
     email: 'admin@myblog.com',
   },
   social: {
